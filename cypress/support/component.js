@@ -24,5 +24,5 @@ import { mount } from 'cypress/react'
 // Add the mount command for React components
 Cypress.Commands.add('mount', mount)
 
-// Import global styles
-import 'bootstrap/dist/css/bootstrap.min.css'
+// Note: Bootstrap CSS is imported in component-index.html via CDN instead
+// to avoid resolution issues
