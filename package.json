@@ -14,7 +14,7 @@
     "build": "cd server && npm run build",
     "seed": "cd server && npm run seed",
     "render-build": "npm install && npm run build",
-    "test": "cypress run --component && cypress run --e2e"
+    "test": "cypress run --config-file cypress.config.js --component && cypress run --config-file cypress.config.js --e2e"
   },
   "keywords": [],
   "author": "",
