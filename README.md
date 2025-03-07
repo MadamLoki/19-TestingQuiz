@@ -31,7 +31,7 @@ This is a full-stack MERN (MongoDB, Express, React, Node.js) application that se
 
 ## Video Demo
 
-[Link to Video Demo](YOUR_VIDEO_LINK_HERE)
+[Link to Video Demo](https://drive.google.com/file/d/1MDcvnWbQzNLiP2adiwFoEmb02QqIsghw/view?usp=sharing)
 
 ## Features
 
