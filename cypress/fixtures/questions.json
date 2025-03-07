@@ -1,5 +1,6 @@
 [
     {
+        "_id": "1",
         "question": "What is the output of print(2 ** 3)?",
         "answers": [
             {
@@ -21,6 +22,7 @@
         ]
     },
     {
+        "_id": "2",
         "question": "Which of the following is a mutable data type in Python?",
         "answers": [
             {
@@ -42,6 +44,7 @@
         ]
     },
     {
+        "_id": "3",
         "question": "What is the keyword used to define a function in Python?",
         "answers": [
             {
@@ -63,6 +66,7 @@
         ]
     },
     {
+        "_id": "4",
         "question": "Which of the following is used to create an empty set?",
         "answers": [
             {
@@ -84,6 +88,7 @@
         ]
     },
     {
+        "_id": "5",
         "question": "What is the output of len('hello world')?",
         "answers": [
             {
@@ -105,6 +110,7 @@
         ]
     },
     {
+        "_id": "6",
         "question": "Which method is used to remove whitespace from the beginning and end of a string?",
         "answers": [
             {
@@ -126,6 +132,7 @@
         ]
     },
     {
+        "_id": "7",
         "question": "What does the // operator do in Python?",
         "answers": [
             {
@@ -147,6 +154,7 @@
         ]
     },
     {
+        "_id": "8",
         "question": "Which of the following is a valid variable name in Python?",
         "answers": [
             {
@@ -168,6 +176,7 @@
         ]
     },
     {
+        "_id": "9",
         "question": "What is the output of type(3.14)?",
         "answers": [
             {
@@ -189,6 +198,7 @@
         ]
     },
     {
+        "_id": "10",
         "question": "Which of the following statements is used to handle exceptions in Python?",
         "answers": [
             {
@@ -205,216 +215,6 @@
             },
             {
                 "text": "try",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "question": "What is the output of 'hello' + 'world'?",
-        "answers": [
-            {
-                "text": "hello world",
-                "isCorrect": false
-            },
-            {
-                "text": "helloworld",
-                "isCorrect": true
-            },
-            {
-                "text": "hello+world",
-                "isCorrect": false
-            },
-            {
-                "text": "hello world!",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "question": "What does the range function do?",
-        "answers": [
-            {
-                "text": "Generates a list of numbers",
-                "isCorrect": true
-            },
-            {
-                "text": "Creates an iterator that generates a sequence of numbers",
-                "isCorrect": true
-            },
-            {
-                "text": "Creates a list of tuples",
-                "isCorrect": false
-            },
-            {
-                "text": "Generates random numbers",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "question": "What is the correct syntax to create a dictionary in Python?",
-        "answers": [
-            {
-                "text": "{'name': 'John', 'age': 30}",
-                "isCorrect": true
-            },
-            {
-                "text": "<'name': 'John', 'age': 30>",
-                "isCorrect": false
-            },
-            {
-                "text": "['name': 'John', 'age': 30]",
-                "isCorrect": false
-            },
-            {
-                "text": "('name': 'John', 'age': 30)",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "question": "Which of the following can be used to create an empty list in Python?",
-        "answers": [
-            {
-                "text": "[]",
-                "isCorrect": true
-            },
-            {
-                "text": "{}",
-                "isCorrect": false
-            },
-            {
-                "text": "()",
-                "isCorrect": false
-            },
-            {
-                "text": "set()",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "question": "What does the method append() do in a list?",
-        "answers": [
-            {
-                "text": "Adds a new element at the end of the list",
-                "isCorrect": true
-            },
-            {
-                "text": "Removes the last element of the list",
-                "isCorrect": false
-            },
-            {
-                "text": "Sorts the list in ascending order",
-                "isCorrect": false
-            },
-            {
-                "text": "Removes all elements from the list",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "question": "How do you create a tuple in Python?",
-        "answers": [
-            {
-                "text": "[]",
-                "isCorrect": false
-            },
-            {
-                "text": "{}",
-                "isCorrect": false
-            },
-            {
-                "text": "()",
-                "isCorrect": true
-            },
-            {
-                "text": "tuple[]",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "question": "What is the output of print(3 == 3.0)?",
-        "answers": [
-            {
-                "text": "False",
-                "isCorrect": false
-            },
-            {
-                "text": "True",
-                "isCorrect": true
-            },
-            {
-                "text": "3",
-                "isCorrect": false
-            },
-            {
-                "text": "3.0",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "question": "What is the keyword to define a class in Python?",
-        "answers": [
-            {
-                "text": "function",
-                "isCorrect": false
-            },
-            {
-                "text": "def",
-                "isCorrect": false
-            },
-            {
-                "text": "class",
-                "isCorrect": true
-            },
-            {
-                "text": "module",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "question": "Which of the following is not a built-in data type in Python?",
-        "answers": [
-            {
-                "text": "list",
-                "isCorrect": false
-            },
-            {
-                "text": "dict",
-                "isCorrect": false
-            },
-            {
-                "text": "tuple",
-                "isCorrect": false
-            },
-            {
-                "text": "array",
-                "isCorrect": true
-            }
-        ]
-    },
-    {
-        "question": "How do you start a comment in Python?",
-        "answers": [
-            {
-                "text": "//",
-                "isCorrect": false
-            },
-            {
-                "text": "/*",
-                "isCorrect": false
-            },
-            {
-                "text": "#",
-                "isCorrect": true
-            },
-            {
-                "text": "<!--",
                 "isCorrect": false
             }
         ]
